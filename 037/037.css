@@ -1,0 +1,64 @@
+
+@font-face{
+    font-family: njnaruto;
+    src: url(njnaruto.ttf);
+}
+@font-face{
+    font-family: vinca_stencil;
+    src: url(vinca_stencil.ttf);
+}
+body{
+    background-image:url("akatsuki.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    font-family: vinca_stencil;
+}
+ 
+.centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+    width:45%;
+    margin:auto;
+    color:white;
+    background-color:rgb(0,0,0,0.9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+
+
+img{
+    height: 170px;
+    width: 200px;
+    object-fit: cover;
+    opacity: 100%;
+
+}
+a{ 
+    text-decoration: none;
+    color: white;
+
+}
+a:active{
+    color: red;
+}
+table{   
+    /* font-size:15px; */
+    /* font-family:Lucida Sans Unicode; */
+    font-size: 50px;
+    font-family: vinca_stencil;
+    text-align:center;
+    /* font-size:3.5vmin; */
+    color:white;
+}
+H1{ font-family: vinca_stencil; 
+    font-size: 100px;
+    margin: 0;
+}
+fieldset{
+    /* padding: 1vh; */
+    margin-bottom: 3vh;
+}
